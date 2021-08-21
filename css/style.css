@@ -293,7 +293,7 @@ body {
 }
 
 .tabs {
-    background-color:none;
+    background-color:transparent;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active {
