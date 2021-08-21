@@ -5,9 +5,7 @@
         <title>ngm</title>
         <link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/ios/50/000000/lotus-temple.png">
         <i class="qlink__icon" data-feather="layers"></i>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" href="css/style.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script src="https://unpkg.com/feather-icons"></script>
         <script src="js/todo.js"></script>
     </head>
@@ -89,61 +87,52 @@
                 </a>
             </div>
             
-            <div class='slider qlist__2'>
-                <ul class='slides'>
-                    <li>
+                        
+            
                         <!-- TradingView Widget BEGIN -->
-                          <div class="qlist qlist__2 tradingview-widget-container">
-                          <div id="technical-analysis"></div>
-                          <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
-                          <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-                          <script type="text/javascript">
-                          new TradingView.widget(
-                          {
-                          "container_id": "technical-analysis",
-                          "width": 900,
-                          "height": 735,
-                          "symbol": "CURRENCYCOM:US500",
-                          "interval": "D",
-                          "timezone": "exchange",
-                          "theme": "dark",
-                          "style": "1",
-                          "toolbar_bg": "#f1f3f6",
-                          "withdateranges": true,
-                          "hide_side_toolbar": false,
-                          "allow_symbol_change": true,
-                          "save_image": false,
-//                        "studies": [
-//                         "ROC@tv-basicstudies",
-//                         "StochasticRSI@tv-basicstudies",
-//                         "MASimple@tv-basicstudies"
-//                        ],
-                          "show_popup_button": true,
-                          "popup_width": "700",
-                          "popup_height": "650",
-                          "locale": "en"
-                          }
-                          );
-                          </script>
-                          </div>
-                        <!-- TradingView Widget END -->
-                    </li>
-                    <li> 
-                        <!-- JH Covid Map -->
-                        <div class="qlist qlist__3">
-                            <iframe src="https://www.arcgis.com/apps/opsdashboard/index.html#/409af567637846e3b5d4182fcd779bea" width="900" height="735" scrolling="no">Iframes not supported</iframe>
-                        </div>
-                        <!-- JH Covid Map End --->
-                    </li>
-                    <li>
-                        <!-- JH Covid Dashboard -->
-                        <div class="qlist qlist__4">
-                            <iframe src="https://bao.arcgis.com/covid-19/jhu/county/04019.html" width="900" height="735" scrolling="no">Iframes not supported</iframe>           
-                        </div>
-                        <!-- JH Covid END -->
-                    </li>
-                </ul>
+            <div class="qlist qlist__2 tradingview-widget-container">
+              <div id="technical-analysis"></div>
+              <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
+              <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+              <script type="text/javascript">
+              new TradingView.widget(
+              {
+              "container_id": "technical-analysis",
+              "width": 900,
+              "height": 735,
+              "symbol": "CURRENCYCOM:US500",
+              "interval": "D",
+              "timezone": "exchange",
+              "theme": "dark",
+              "style": "1",
+              "toolbar_bg": "#f1f3f6",
+              "withdateranges": true,
+              "hide_side_toolbar": false,
+              "allow_symbol_change": true,
+              "save_image": false,
+//               "studies": [
+//                 "ROC@tv-basicstudies",
+//                 "StochasticRSI@tv-basicstudies",
+//                 "MASimple@tv-basicstudies"
+//               ],
+              "show_popup_button": true,
+              "popup_width": "700",
+              "popup_height": "650",
+              "locale": "en"
+            }
+              );
+              </script>
             </div>
+            <!-- TradingView Widget END -->
+            
+            
+            <!-- John Hopkinds Covid Dashboard -->
+            <div class="qlist qlist__3">
+                <iframe src="https://www.arcgis.com/apps/opsdashboard/index.html#/409af567637846e3b5d4182fcd779bea" width="900" height="735" scrolling="no">Iframes not supported</iframe>
+            </div>
+            <div class="qlist qlist__4">
+                <iframe src="https://bao.arcgis.com/covid-19/jhu/county/04019.html" width="900" height="735" scrolling="no">Iframes not supported</iframe>            </div>
+            <!-- JH Covid END -->
             
 
             

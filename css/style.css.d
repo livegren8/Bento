@@ -303,18 +303,6 @@ body {
     grid-row: 3;
 }
 
-.slider .indicators .indicator-item {
-    background-color: #b4bcca; 
-}
-
-.slider .indicators .indicator-item.active {
-    background-color: #000000;
-}
-
-.slider .indicators {
-    z-index: 1000;
-}
-
 .qlist__3 {
     grid-column: 1 / span 4;
     grid-row: 4;
