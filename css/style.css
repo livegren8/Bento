@@ -90,12 +90,12 @@ body {
     grid-gap: 30px;
     padding: 20px;
 }
-@media only screen and (max-width: 68.75em) {
+/*@media only screen and (max-width: 68.75em) {
     .container {
         grid-gap: 20px;
         padding: 40px;
     }
-}
+}*/
 .container > * {
     width: 100%;
 }
