@@ -303,6 +303,10 @@ body {
     grid-row: 3;
 }
 
+.slider {
+    width: 900px;
+}
+
 .slider .indicators .indicator-item {
     background-color: #b4bcca; 
 }
