@@ -285,9 +285,11 @@ body {
 }
 
 .qlist {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    grid-column: 1 / span 4;
+}
+
+.tabs-content {
+    height:735px;
 }
 /*@media only screen and (max-width: 68.75em) {
     .qlist {

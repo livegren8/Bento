@@ -28,10 +28,8 @@ function includeHTML() {
         }
 }
 
-// slider
+// tab swipe
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems, {'height':735});
-    var instance = M.Slider.getInstance(elem);
-    instance.pause();
+    var elem = document.querySelectorAll('.tabs');
+    var instance = M.Tabs.init(elem, {'swipeable':'TRUE', 'duration':100});
 });

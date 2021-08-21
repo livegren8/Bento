@@ -89,11 +89,15 @@
                 </a>
             </div>
             
-            <div class='slider qlist__2'>
-                <ul class='slides'>
-                    <li>
+            <div class='qlist'>
+            <ul id="tabs-swipe" class="tabs">
+                <li class='tab col s3'><a href='#trading'>Market Ticker</a></li>
+                <li class='tab col s3'><a href='#jhmap'>Covid Map</a></li>
+                <li class='tab col s3'><a href='#jhdash'>Covid Dashboard</a></li>
+            </ul>
+
                         <!-- TradingView Widget BEGIN -->
-                          <div class="qlist qlist__2 tradingview-widget-container">
+                      <div class="tradingview-widget-container" id='trading'>
                           <div id="technical-analysis"></div>
                           <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
                           <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
@@ -125,24 +129,20 @@
                           }
                           );
                           </script>
-                          </div>
+                      </div>
                         <!-- TradingView Widget END -->
-                    </li>
-                    <li> 
+
                         <!-- JH Covid Map -->
-                        <div class="qlist qlist__3">
+                        <div id='jhmap'>
                             <iframe src="https://www.arcgis.com/apps/opsdashboard/index.html#/409af567637846e3b5d4182fcd779bea" width="900" height="735" scrolling="no">Iframes not supported</iframe>
                         </div>
                         <!-- JH Covid Map End --->
-                    </li>
-                    <li>
+
                         <!-- JH Covid Dashboard -->
-                        <div class="qlist qlist__4">
+                        <div id='jhdash'>
                             <iframe src="https://bao.arcgis.com/covid-19/jhu/county/04019.html" width="900" height="735" scrolling="no">Iframes not supported</iframe>           
                         </div>
                         <!-- JH Covid END -->
-                    </li>
-                </ul>
             </div>
             
 
