@@ -160,11 +160,11 @@ body {
     align-items: center;
     justify-content: center;
 }
-@media only screen and (max-width: 68.75em) {
+/*@media only screen and (max-width: 68.75em) {
     .sblock {
         display: none;
     }
-}
+}*/
 
 .clock {
     display: flex;
